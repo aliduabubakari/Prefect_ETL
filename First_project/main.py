@@ -10,4 +10,6 @@ def hello_world():
     task_messae = create_messae()
     print(f"The message is: {task_messae}")
 
-hello_world()  # Call the function
+if  __name__ == '__main__':
+    hello_world()
+    
